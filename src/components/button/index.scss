@@ -10,7 +10,7 @@ $at-button-height-sm: 60px;
   margin: 0 auto;
   padding: 0 $spacing-h-xl;
   height: $at-button-height;
-  color: $color-text-base;
+  color: $color-brand;
   font-size: $font-size-lg;
   line-height: $at-button-height - 2;
   text-align: center;
@@ -37,15 +37,15 @@ $at-button-height-sm: 60px;
   }
 
   &--primary {
-    background-color: rgba(92, 137, 228, 1);
+    background-color: $color-btn-base;
     color: #fff;
-    border: 1PX solid rgba(92, 137, 228, 1);
+    border: 1PX solid $color-btn-base;
   }
 
   &--secondary {
     background-color: #fff;
-    color: rgba(92, 137, 228, 1);
-    border: 1PX solid rgba(92, 137, 228, 1);
+    color: $color-btn-base;
+    border: 1PX solid $color-btn-base;
   }
 
   &__icon {

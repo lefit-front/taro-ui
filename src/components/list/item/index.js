@@ -36,6 +36,7 @@ export default class AtListItem extends AtComponent {
       iconInfo,
       disabled,
       isSwitch,
+      subNote,
       extraText,
       hasBorder,
       extraThumb,
@@ -81,6 +82,7 @@ export default class AtListItem extends AtComponent {
             <View className='item-content__info'>
               <View className='item-content__info-title'>{title}</View>
               {note && <View className='item-content__info-note'>{note}</View>}
+              {subNote && <View className='item-content__info-sub-note'>{subNote}</View>}
             </View>
           </View>
           <View className='at-list__item-extra item-extra'>
@@ -141,6 +143,7 @@ AtListItem.propTypes = {
   isSwitch: PropTypes.bool,
   hasBorder: PropTypes.bool,
   switchIsCheck: PropTypes.bool,
+  subNote: PropTypes.string,
   extraText: PropTypes.string,
   extraThumb: PropTypes.string,
   onSwitchChange: PropTypes.func,

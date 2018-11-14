@@ -67,6 +67,10 @@ $item-horizontal-padding: 24px;
     @include flex(0, 0, 235px);
 
     text-align: right;
+
+    .item-sub__info {
+      text-align: right;
+    }
   }
 }
 
@@ -81,6 +85,12 @@ $item-horizontal-padding: 24px;
     }
 
     &-note {
+      color: $color-grey-1;
+      font-size: $font-size-base;
+      line-height: $line-height-zh;
+    }
+
+    &-sub-note {
       color: $color-grey-2;
       font-size: $font-size-base;
       line-height: $line-height-zh;

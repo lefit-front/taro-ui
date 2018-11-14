@@ -97,7 +97,7 @@ export default class AtButton extends AtComponent {
       'at-button--circle': circle,
       'at-button--full': full,
     }
-    const loadingColor = type === 'primary' ? '#fff' : '#6190E8'
+    const loadingColor = type === 'primary' ? '#fff' : '#FF6040'
     const loadingSize = size === 'small' ? '16' : '18'
     let component
     if (loading) {

@@ -109,6 +109,7 @@ export default class ListPage extends Component {
                     title='标题文字'
                     note='描述信息'
                     extraText='详细信息'
+                    subNote='描述信息2'
                     arrow='right'
                     iconInfo={{
                       size: 25,

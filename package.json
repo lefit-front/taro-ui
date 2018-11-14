@@ -1,6 +1,6 @@
 {
-	"name": "taro-ui",
-	"version": "1.4.0",
+	"name": "lefit-taro",
+	"version": "0.0.2",
 	"description": "UI KIT for Taro",
 	"main": "dist/index.js",
 	"types": "./@types/index.d.ts",

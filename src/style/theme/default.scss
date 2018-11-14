@@ -6,15 +6,15 @@
 $hd: 2; // 基本单位
 
 /* The Color of O2Team Brand */
-$color-brand: #6190E8;
+$color-brand: #FF6040;
 $color-brand-light: #78A4F4;
 $color-brand-dark: #346FC2;
 
 /* Color */
-$color-success: #13CE66;
+$color-success: #33CC7F;
 $color-error: #FF4949;
-$color-warning: #FFC82C;
-$color-info: #78A4FA;
+$color-warning: #FF6040;
+$color-info: #FFBF40;
 
 /* Color Palette */
 $color-black-0: #000;
@@ -41,6 +41,13 @@ $color-text-disabled: #CCC;
 $color-text-title: #2C405A; // 文章标题
 $color-text-paragraph: #3F536E; // 文章段落
 
+/* Button Color */
+$color-btn-base: $color-brand; // 文字的基本色
+$color-btn-pressed: #D33E20; // 按下状态
+$color-btn-disabled: #E7E7E7; // 禁用状态
+$color-btn-base-inverse: #757182; // 反色
+$color-btn-pressed-inverse: #534E63; // 按下状态反色
+
 /* Link */
 $color-link: #6190E8;
 $color-link-hover: #79A1EB;
@@ -55,7 +62,7 @@ $color-bg-lighter: tint($color-bg-light, 50%);
 $color-bg-grey: #F7F7F7;
 
 /* 边框颜色 */
-$color-border-base: #C5D9E8;
+$color-border-base: $color-brand;
 $color-border-split: tint($color-border-base, 20%); // 分割线
 $color-border-light: tint($color-border-base, 30%);
 $color-border-lighter: tint($color-border-base, 50%);
