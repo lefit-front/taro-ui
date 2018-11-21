@@ -49,7 +49,7 @@ export default class AtLoadMore extends AtComponent {
 
     let component = null
     if (status === 'loading') {
-      component = <AtActivityIndicator mode='center' content={loadingText} />
+      component = <AtActivityIndicator mode='center' color='#FF6040' content={loadingText} />
     } else if (status === 'more') {
       component = <AtButton onClick={this.onClick.bind(this)} full>{moreText}</AtButton>
     } else {
