@@ -3,7 +3,7 @@
 
 $float-layout-timer: 300ms;
 $float-layout-height-min: 600px;
-$float-layout-height-max: 950px;
+$float-layout-height-max: 1250px;
 
 .at-float-layout {
   position: fixed;
@@ -63,11 +63,11 @@ $float-layout-height-max: 950px;
   &-body {
     font-size: $font-size-base;
     padding: $spacing-v-md;
-    max-height: 828px;
+    max-height: 1128px;
     min-height: 514px;
 
     &__content {
-      max-height: 798px;
+      max-height: 1098px;
       min-height: 484px;
     }
   }

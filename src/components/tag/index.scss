@@ -16,14 +16,14 @@
   box-sizing: border-box;
 
   &--active {
-    color: $color-brand-light;
-    border: 1PX solid $color-brand-light;
+    color: $color-brand;
+    border: 1PX solid $color-brand;
     background-color: $color-bg;
 
     &.at-tag--primary {
       color: $color-text-base-inverse;
-      border: 1PX solid $color-brand-light;
-      background-color: $color-brand-light;
+      border: 1PX solid $color-brand;
+      background-color: $color-brand;
     }
   }
 
