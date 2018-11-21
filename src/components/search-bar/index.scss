@@ -83,7 +83,7 @@ $placeholderPadding: 5PX;
   &__action {
     display: block;
     flex: none;
-    background-color: #6190E8;
+    background-color: $color-brand;
     opacity: 0;
     height: $height;
     line-height: $height;

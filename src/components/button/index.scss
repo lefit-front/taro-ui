@@ -28,14 +28,6 @@ $at-button-height-sm: 60px;
     opacity: 0.6;
   }
 
-  &--disabled {
-    opacity: 0.3;
-
-    &:active {
-      opacity: 0.3;
-    }
-  }
-
   &--primary {
     background-color: $color-btn-base;
     color: #fff;
@@ -46,6 +38,18 @@ $at-button-height-sm: 60px;
     background-color: #fff;
     color: $color-btn-base;
     border: 1PX solid $color-btn-base;
+  }
+
+  &--disabled {
+    background-color: $color-btn-disabled;
+    color: #BBB;
+    border: 1PX solid $color-btn-disabled;
+
+    &:active {
+      background-color: $color-btn-disabled;
+      color: #BBB;
+      border: 1PX solid $color-btn-disabled;
+    }
   }
 
   &__icon {
